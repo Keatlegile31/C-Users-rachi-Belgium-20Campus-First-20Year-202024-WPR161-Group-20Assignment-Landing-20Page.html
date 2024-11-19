@@ -1,0 +1,139 @@
+.logo img {
+    max-width: 100px;
+    height: auto; 
+}
+
+header {
+ 
+        background-image: url('resources page.png'); 
+        background-size: cover; 
+        background-position: center; 
+        color: #FFFFFF; 
+        text-align: center;
+        padding: 20px; 
+}
+
+nav {
+    display: inline-block; 
+      padding-left: 55%;
+      padding-top: 1%;
+}
+
+nav a {
+    color: #852e85;
+    text-decoration: none;
+    margin: 0 20px; 
+}
+
+nav a:hover {
+    color: #b0e8f0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#resources {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#resources h2 {
+    margin-bottom: 30px;
+    color: #333; 
+}
+
+.resource-category {
+    margin-bottom: 40px;
+}
+
+.resource-category h3 {
+    color: #007bff; 
+}
+
+.resource-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource-list li {
+    margin-bottom: 10px;
+    color: #666; 
+}
+
+.resource-list li strong {
+    font-weight: bold;
+}
+
+#testimonials {
+    padding: 50px 0;
+    background-color: #f9f9f9; 
+    text-align: center;
+}
+
+#testimonials h2 {
+    margin-bottom: 30px;
+    color: #333; 
+}
+
+.testimonial {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 30px;
+}
+
+.testimonial-content {
+    margin-bottom: 20px;
+}
+
+.testimonial-content p {
+    color: #666; 
+}
+
+.testimonial-author {
+    font-style: italic;
+    color: #999; 
+}
+
+footer {
+    background-color: black; 
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    text-align: center;
+    margin: 0;
+}

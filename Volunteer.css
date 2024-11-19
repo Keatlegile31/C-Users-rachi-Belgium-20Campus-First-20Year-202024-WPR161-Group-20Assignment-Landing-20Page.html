@@ -1,0 +1,94 @@
+nav {
+    display: inline-block; 
+}
+
+nav a {
+    color: #852e85;
+    text-decoration: none;
+    margin: 0 20px; 
+}
+
+nav a:hover {
+    color: #b0e8f0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.volunteer {
+    background-color: #e6ccff; 
+    padding: 40px 0;
+    text-align: center;
+}
+
+.volunteer h2 {
+    color: #8000ff; 
+}
+
+.volunteer p {
+    margin-top: 20px;
+}
+
+.volunteer-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8000ff; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #8000ff; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #6600cc; 
+}

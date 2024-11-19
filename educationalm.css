@@ -1,0 +1,297 @@
+#educational {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 300px;
+    background-color: #bbdfee; 
+    border-radius: 10px;
+    padding: 100px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h3 {
+    color: #fff; 
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.section p {
+    color: #f0f0f0; 
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; 
+    color: #b64cc0; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f0f0f0; 
+}
+
+header {
+    background-color: #c486c4; 
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px; 
+}
+
+nav {
+    display: inline-block; 
+}
+
+nav a {
+    color: #eedcee;
+    text-decoration: none;
+    margin: 0 20px; 
+}
+
+nav a:hover {
+    color: #775275;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reporting-form {
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px; 
+}
+
+.reporting-form h2 {
+    margin-top: 0; 
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #007070; 
+}
+
+.image-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.text-container h2 {
+    color: purple;
+}
+
+.text-container p {
+    margin-bottom: 20px;
+}
+
+.text-container{
+    background-color: rgb(144, 161, 161);
+}
+
+#overview {
+    background-color: #97c4f3;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#overview h1 {
+    margin-top: 0;
+    font-size: 2.5em;
+}
+
+#overview p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    color: #007bff;
+}
+
+.section p {
+    color: #333;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+     .statistics {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+    .statistics h2 {
+            color: #007bff;
+        }
+
+    .statistics p {
+            margin: 10px 0;
+        }
+
+     .statistics-placeholder {
+            font-weight: bold;
+        }
+
+
+footer {
+    background-color: rgb(156, 197, 197); 
+    color: #fff; 
+    padding: 10px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons a {
+    margin-right: 15px;
+}
+
+.related-links a {
+    display: block;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+    padding-right: 5%;
+}
+.related-links p{
+    text-decoration: underline;
+}
+
+.social-icons a img {
+    width: 50px; 
+    height: 50px; 
+}
